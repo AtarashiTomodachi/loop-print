@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="headline">
+            <h1>Welcome to the Loop Machine</h1>
+            <h2>Please enter a sentence below and set your time for loop</h2>
+        </div>
+        <div class="input-section">
+            <h2>Your sentence:</h2>
+            <input type="text" id="TextInput" placeholder="Example: This is a sentence">
+            <h2>Time for loop</h2>
+            <input type="number" id="TimeInput" placeholder="Example: 10, 100, 1000">
+        </div>
+        <button id="output-btn" onclick="ForLoop()">Start</button>
+        <button id="copy-btn" onclick="Copy(document.querySelector('#output').innerText)">Copy Result</button>
+        <p type="text" id="output"></p>
+        <!-- <input type="text" id="output" readonly> -->
+
+    </div>
+    
+  <script src="script.js"></script>  
+</body>
+</html>
