@@ -1,14 +1,3 @@
-//     const text = document.getElementById("TextInput").value
-//     const time = document.getElementById("TimeInput").value
-//     for (i = 0; i < time; i++) {
-//         const output = i + 1 + "." + text + "<br>" 
-//         document.getElementById("output").innerHTML += output
-//         console.log(output)
-//     }
-
-// }
-
-
 function ForLoop () {
     const text = document.getElementById("TextInput").value
     const time = document.getElementById("TimeInput").value
@@ -23,7 +12,6 @@ function ForLoop () {
     }
 }
 }
-
 
 function Copy(output) {
     var elem = document.createElement("textarea");
